@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-05-13T19:34:29Z",
+  "base": "https://easconsulting.com.mx",
+  "pages": [
+    {
+      "page": "https://easconsulting.com.mx/",
+      "page_file": "page_home.json",
+      "sections": [
+        "section_home_sec_0.json",
+        "section_home_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/consultoria-y-proyectos-sap/",
+      "page_file": "page_consultoria-y-proyectos-sap.json",
+      "sections": [
+        "section_consultoria-y-proyectos-sap_sec_0.json",
+        "section_consultoria-y-proyectos-sap_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/seguridad-sap/",
+      "page_file": "page_seguridad-sap.json",
+      "sections": [
+        "section_seguridad-sap_sec_0.json",
+        "section_seguridad-sap_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/sap-s4-hana/",
+      "page_file": "page_sap-s4-hana.json",
+      "sections": [
+        "section_sap-s4-hana_sec_0.json",
+        "section_sap-s4-hana_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/sap-rise/",
+      "page_file": "page_sap-rise.json",
+      "sections": [
+        "section_sap-rise_sec_0.json",
+        "section_sap-rise_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/",
+      "page_file": "page_soporte-operativo-ams-y-mds.json",
+      "sections": [
+        "section_soporte-operativo-ams-y-mds_sec_0.json",
+        "section_soporte-operativo-ams-y-mds_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/infraestructura-de-nube-para-soluciones-sap-y-no-sap/",
+      "page_file": "page_infraestructura-de-nube-para-soluciones-sap-y-no-sap.json",
+      "sections": [
+        "section_infraestructura-de-nube-para-soluciones-sap-y-no-sap_sec_0.json",
+        "section_infraestructura-de-nube-para-soluciones-sap-y-no-sap_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/fabrica-de-software/",
+      "page_file": "page_fabrica-de-software.json",
+      "sections": [
+        "section_fabrica-de-software_sec_0.json",
+        "section_fabrica-de-software_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/voquz-labs/",
+      "page_file": "page_voquz-labs.json",
+      "sections": [
+        "section_voquz-labs_sec_0.json",
+        "section_voquz-labs_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/accountfy/",
+      "page_file": "page_accountfy.json",
+      "sections": [
+        "section_accountfy_sec_0.json",
+        "section_accountfy_sec_1.json"
+      ]
+    },
+    {
+      "page": "https://easconsulting.com.mx/wp-content/uploads/2023/03/Aviso-de-Provacidad-EAS.pdf",
+      "page_file": "page_wp-content--uploads--2023--03--Aviso-de-Provacidad-EAS-pdf.json",
+      "sections": []
+    },
+    {
+      "page": "https://easconsulting.com.mx/wp-content/uploads/2023/03/Carta-Presentacion-EAS-2023.pdf",
+      "page_file": "page_wp-content--uploads--2023--03--Carta-Presentacion-EAS-2023-pdf.json",
+      "sections": []
+    }
+  ]
+}

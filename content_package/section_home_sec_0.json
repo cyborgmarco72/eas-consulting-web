@@ -1,0 +1,21 @@
+{
+  "id": "home_sec_0",
+  "source_url": "https://easconsulting.com.mx/",
+  "headings": [],
+  "paragraphs": [],
+  "images": [
+    {
+      "src": "https://easconsulting.com.mx/wp-content/uploads/2023/03/LOGO.png",
+      "local": "img_home_3.png",
+      "alt": "",
+      "size": 25551
+    },
+    {
+      "src": "https://easconsulting.com.mx/wp-content/uploads/2023/03/eas-consulting-sap-silver.png",
+      "local": "img_home_4.png",
+      "alt": "Sap Silver",
+      "size": 182516
+    }
+  ],
+  "raw_html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e64b637 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e64b637\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7a135c9\" data-element_type=\"column\" data-id=\"7a135c9\" data-settings='{\"background_background\":\"classic\"}'>\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d44fe49 e-con-full e-flex e-con e-parent\" data-element_type=\"container\" data-id=\"d44fe49\">\n<div class=\"elementor-element elementor-element-6899cfd e-con-full e-flex e-con e-child\" data-element_type=\"container\" data-id=\"6899cfd\">\n<div class=\"elementor-element elementor-element-605f946 elementor-widget elementor-widget-image\" data-element_type=\"widget\" data-id=\"605f946\" data-widget_type=\"image.default\">\n<div class=\"elementor-widget-container\">\n<a href=\"https://easconsulting.com.mx/\">\n<img alt=\"\" class=\"attachment-full size-full wp-image-1892\" height=\"284\" sizes=\"(max-width: 768px) 100vw, 768px\" src=\"https://easconsulting.com.mx/wp-content/uploads/2023/03/LOGO.png\" srcset=\"https://easconsulting.com.mx/wp-content/uploads/2023/03/LOGO.png 768w, https://easconsulting.com.mx/wp-content/uploads/2023/03/LOGO-300x111.png 300w\" width=\"768\"/> </a>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-e953b66 e-flex e-con-boxed e-con e-child\" data-element_type=\"container\" data-id=\"e953b66\">\n<div class=\"e-con-inner\">\n<div class=\"elementor-element elementor-element-42430aa elementor-widget elementor-widget-image\" data-element_type=\"widget\" data-id=\"42430aa\" data-widget_type=\"image.default\">\n<div class=\"elementor-widget-container\">\n<img alt=\"Sap Silver\" loading=\"lazy\" src=\"https://easconsulting.com.mx/wp-content/uploads/2023/03/eas-consulting-sap-sil"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "page_soporte-operativo-ams-y-mds",
+  "url": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/",
+  "slug": "soporte-operativo-ams-y-mds",
+  "title": "Soporte Operativo AMS y MDS",
+  "meta": {
+    "viewport": "width=device-width, initial-scale=1",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "description": "En EAS CONSULTING brindamos Soporte a la medida para soluciones SAP y no SAP. Contáctanos al 55-52-54-35-50 y crezcamos juntos tu negocio.",
+    "og:locale": "es_MX",
+    "og:type": "article",
+    "og:title": "Soporte Operativo AMS y MDS",
+    "og:description": "En EAS CONSULTING brindamos Soporte a la medida para soluciones SAP y no SAP. Contáctanos al 55-52-54-35-50 y crezcamos juntos tu negocio.",
+    "og:url": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/",
+    "og:site_name": "Servicios de consultoría empresarial en Ciudad de México | EAS CONSULTING",
+    "article:modified_time": "2023-12-20T17:52:59+00:00",
+    "og:image": "https://easconsulting.com.mx/wp-content/uploads/2023/09/gente-negocios-trabajando-ipad-alto-angulo-300x200.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:label1": "Tiempo de lectura",
+    "twitter:data1": "6 minutos",
+    "generator": "Elementor 3.24.3; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+    "msapplication-tileimage": "https://easconsulting.com.mx/wp-content/uploads/2024/09/cropped-PostRedes-270x270.jpg"
+  },
+  "json_ld": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/",
+          "url": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/",
+          "name": "Soporte Operativo AMS y MDS",
+          "isPartOf": {
+            "@id": "https://easconsulting.com.mx/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/#primaryimage"
+          },
+          "image": {
+            "@id": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/#primaryimage"
+          },
+          "thumbnailUrl": "https://easconsulting.com.mx/wp-content/uploads/2023/09/gente-negocios-trabajando-ipad-alto-angulo-300x200.jpg",
+          "datePublished": "2023-11-03T22:26:47+00:00",
+          "dateModified": "2023-12-20T17:52:59+00:00",
+          "description": "En EAS CONSULTING brindamos Soporte a la medida para soluciones SAP y no SAP. Contáctanos al 55-52-54-35-50 y crezcamos juntos tu negocio.",
+          "breadcrumb": {
+            "@id": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/#breadcrumb"
+          },
+          "inLanguage": "es",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "ImageObject",
+          "inLanguage": "es",
+          "@id": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/#primaryimage",
+          "url": "https://easconsulting.com.mx/wp-content/uploads/2023/09/gente-negocios-trabajando-ipad-alto-angulo-scaled.jpg",
+          "contentUrl": "https://easconsulting.com.mx/wp-content/uploads/2023/09/gente-negocios-trabajando-ipad-alto-angulo-scaled.jpg",
+          "width": 2560,
+          "height": 1708
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://easconsulting.com.mx/soporte-operativo-ams-y-mds/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "INICIO",
+              "item": "https://easconsulting.com.mx/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Soporte Operativo AMS y MDS"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://easconsulting.com.mx/#website",
+          "url": "https://easconsulting.com.mx/",
+          "name": "Servicios de consultoría empresarial en Ciudad de México | EAS CONSULTING",
+          "description": "Always innovating",
+          "publisher": {
+            "@id": "https://easconsulting.com.mx/#organization"
+          },
+          "alternateName": "EAS Consulting",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://easconsulting.com.mx/?s={search_term_string}"
+              },
+              "query-input": {
+                "@type": "PropertyValueSpecification",
+                "valueRequired": true,
+                "valueName": "search_term_string"
+              }
+            }
+          ],
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://easconsulting.com.mx/#organization",
+          "name": "EAS Consulting",
+          "url": "https://easconsulting.com.mx/",
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "es",
+            "@id": "https://easconsulting.com.mx/#/schema/logo/image/",
+            "url": "https://easconsulting.com.mx/wp-content/uploads/2026/02/cropped-Logo_Correo-removebg-preview.png",
+            "contentUrl": "https://easconsulting.com.mx/wp-content/uploads/2026/02/cropped-Logo_Correo-removebg-preview.png",
+            "width": 813,
+            "height": 271,
+            "caption": "EAS Consulting"
+          },
+          "image": {
+            "@id": "https://easconsulting.com.mx/#/schema/logo/image/"
+          }
+        }
+      ]
+    }
+  ],
+  "sections": [
+    "section_soporte-operativo-ams-y-mds_sec_0.json",
+    "section_soporte-operativo-ams-y-mds_sec_1.json"
+  ]
+}
