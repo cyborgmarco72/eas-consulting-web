@@ -1,6 +1,6 @@
 import './globals.css'
 // Importamos el JSON de la Home que ya tienes en tu repo
-import content from '../../content_package/page_home.json'
+
 
 export const metadata = {
   title: 'EAS Consulting | Expertos en SAP',
