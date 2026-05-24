@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --foreground-rgb: 16, 50, 104; /* #103268 convertido a RGB */
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
+  
+  /* Variables de fuentes */
+  --font-exo: 'Exo 2', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
+  font-family: var(--font-poppins);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Configuraciones globales para selectores principales */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-exo);
 }
 
 /* Efecto Glassmorphism personalizado */
@@ -20,6 +33,7 @@ body {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
+
 /* Efecto Flip Card 3D */
 .perspective-1000 {
   perspective: 1000px;
@@ -35,5 +49,5 @@ body {
 }
 
 .rotate-y-180 {
-  transform: rotateY(180px); /* Usaremos una clase de Tailwind dinámica */
+  transform: rotateY(180deg); /* Corregido '180px' a '180deg' para que la rotación 3D sea matemáticamente correcta */
 }

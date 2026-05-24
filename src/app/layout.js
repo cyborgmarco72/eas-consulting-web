@@ -1,5 +1,6 @@
 import './globals.css'
 import Navbar from '../components/Layout/Navbar'
+import Footer from '../components/Layout/Footer'
 
 export const metadata = {
   title: 'EAS Consulting | Expertos en SAP',
@@ -9,11 +10,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className="antialiased font-sans">
+      <body className="antialiased font-sans flex flex-col min-h-screen bg-white">
+        
+        {/* Navbar persistente y fija */}
         <Navbar />
-        <main className="pt-20 bg-white">
+        
+        {/* El marcador flexible "flex-grow" asegura que el contenido de los children 
+            empuje dinámicamente al Footer hacia la parte inferior de la pantalla */}
+        <main className="pt-20 bg-white flex-grow">
           {children}
         </main>
+        
+        {/* Footer persistente global */}
+        <Footer />
+        
       </body>
     </html>
   )

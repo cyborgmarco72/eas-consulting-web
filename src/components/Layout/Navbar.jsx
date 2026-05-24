@@ -22,8 +22,8 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md shadow-lg py-3 border-b border-slate-100"
-          : "bg-white py-5 border-b border-slate-100"
+          ? "bg-white/90 backdrop-blur-md shadow-lg py-1 border-b border-slate-100" // Reducimos de py-3 a py-1
+          : "bg-white py-2 border-b border-slate-100" // Reducimos de py-5 a py-2
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
@@ -33,7 +33,8 @@ export default function Navbar() {
           <img
             src="/images/LogoEAS-Color.png"
             alt="EAS Consulting"
-            className="h-14 md:h-16 w-auto object-contain block"
+            /* Tamaño grande pero con margen negativo (-my-4) para NO engordar la barra */
+            className="h-[80px] md:h-[105px] w-auto object-contain block transition-all duration-300 -my-2 md:-my-4 relative z-10" 
             priority="true"
           />
         </a>

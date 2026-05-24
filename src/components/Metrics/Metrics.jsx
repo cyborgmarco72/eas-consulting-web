@@ -75,20 +75,24 @@ export default function Metrics() {
   return (
     <section className="relative z-20 py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="bg-[#005596] rounded-[48px] px-10 py-10 shadow-2xl max-w-5xl mx-auto">
+        
+        {/* CORRECCIÓN 1: Aplicamos bg-easNavy (Azul Corporativo Oficial) */}
+        <div className="bg-easNavy rounded-[48px] px-10 py-10 shadow-2xl max-w-5xl mx-auto border border-white/5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
 
             {metrics.map((metric, i) => (
               <div key={i} className="text-center">
                 
-                <div className="text-5xl md:text-6xl font-black text-emerald-400 mb-3 tracking-tight">
+                {/* CORRECCIÓN 2 y 3: text-easGreen (Verde EAS) y font-exo para los números */}
+                <div className="text-5xl md:text-6xl font-black text-easGreen mb-3 tracking-tight font-exo">
                   <Counter
                     end={metric.value}
                     suffix={metric.suffix}
                   />
                 </div>
 
-                <div className="text-white/80 text-[11px] uppercase tracking-[0.25em] font-bold">
+                {/* CORRECCIÓN 4: font-montserrat para los sub-textos descriptivos */}
+                <div className="text-easLightBlue text-[11px] uppercase tracking-[0.25em] font-bold font-montserrat">
                   {metric.label}
                 </div>
 

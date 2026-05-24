@@ -15,8 +15,8 @@ const videos = [
   },
   {
     id: "ikDRouzw1Wk",
-    title: "Caso de Éxito EAS: Silanés",
-    subtitle: "Proyecto Phoenix - Laboratorios Silanés",
+    title: "Caso de Éxito EAS: Silanes",
+    subtitle: "Proyecto Phoenix - Laboratorios Silanes",
   },
 ]
 

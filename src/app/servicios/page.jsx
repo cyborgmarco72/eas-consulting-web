@@ -1,7 +1,8 @@
-"use client";
+"use client"
 
-import { motion } from "framer-motion";
-import Link from "next/link";
+import { motion } from "framer-motion"
+import Link from "next/link"
+import CtaBanner from "../../components/CtaBanner/CtaBanner"
 
 const services = [
   {
@@ -80,7 +81,7 @@ const services = [
 
 export default function ServiciosPage() {
   return (
-    <main className="min-h-screen bg-white text-gray-900">
+    <main className="min-h-screen bg-white text-gray-900 pb-12">
 
       {/* HERO */}
       <section className="px-6 pt-32 pb-20 max-w-7xl mx-auto text-center">
@@ -108,7 +109,7 @@ export default function ServiciosPage() {
       </section>
 
       {/* GRID DE SERVICIOS */}
-      <section className="px-6 pb-24 max-w-7xl mx-auto">
+      <section className="px-6 pb-12 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {services.map((service, i) => (
             <motion.div
@@ -120,19 +121,17 @@ export default function ServiciosPage() {
               <Link href={service.href}>
                 <div className="group relative h-full flex flex-col bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden cursor-pointer">
                   
-                  {/* Visual Container (Antigravity inspired) */}
+                  {/* Visual Container */}
                   <div className="relative w-full h-[220px] overflow-hidden bg-gray-100">
-                    {/* Imagen con rotación inicial tilt y enderezado sutil en hover */}
                     <img 
                       src={service.imageUrl} 
                       alt={service.title} 
                       className="w-full h-full object-cover opacity-95 transform rotate-2 group-hover:rotate-0 group-hover:scale-105 transition-transform duration-500 ease-out"
                     />
                     
-                    {/* Gradiente sutil encima de la foto */}
                     <div className="absolute inset-0 bg-gradient-to-tr from-[#103268]/40 to-transparent mix-blend-multiply"></div>
 
-                    {/* Floating Badge (Bounce suave continuo) */}
+                    {/* Floating Badge */}
                     <div 
                       className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1.5 rounded-xl shadow-md border border-white/50 flex items-center gap-1.5 animate-bounce"
                       style={{ animationDuration: "3s" }}
@@ -169,27 +168,9 @@ export default function ServiciosPage() {
         </div>
       </section>
 
-      {/* CTA FINAL */}
-      <section className="px-6 pb-32 text-center">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          className="max-w-3xl mx-auto p-10 rounded-2xl bg-gradient-to-r from-[#103268] to-[#00BEFE]/80 border border-[#103268]/10"
-        >
-          <h2 className="text-3xl font-bold mb-4 text-white">
-            ¿Listo para transformar tu negocio?
-          </h2>
-          <p className="text-white/80 mb-6">
-            Hablemos y diseñemos juntos la mejor estrategia tecnológica para tu empresa.
-          </p>
+      {/* CTA BANNER MODULAR Y COMPARTIDO */}
+      <CtaBanner />
 
-          <Link href="/contacto">
-            <button className="px-6 py-3 rounded-lg bg-white text-[#103268] font-semibold hover:scale-105 transition">
-              Contactar a EAS
-            </button>
-          </Link>
-        </motion.div>
-      </section>
     </main>
   );
 }
