@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { usePathname } from "next/navigation" // 1. Agregamos el hook de Next.js
 
 const navItems = [
   { name: "Inicio", href: "/" },
@@ -11,12 +12,20 @@ const navItems = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  
+  // 2. Obtenemos la ruta actual (URL)
+  const pathname = usePathname()
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+
+  // 3. LA MAGIA: Si la URL empieza con "/lp-", este Navbar NO se renderiza.
+  if (pathname?.startsWith("/lp-")) {
+    return null;
+  }
 
   return (
     <header

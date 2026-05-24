@@ -1,15 +1,22 @@
-import Link from 'next/link'
-import { MapPin, Phone, Mail, ArrowUpRight } from 'lucide-react'
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { MapPin, Phone, Mail, ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  
+
   return (
-    <footer className="bg-easNavy pt-24 pb-12 text-white border-t border-white/5 font-poppins">
+    <footer
+      className="bg-easNavy pt-24 pb-12 text-white border-t border-white/5 font-poppins"
+      role="contentinfo"
+      aria-label="Footer principal"
+    >
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           
-          {/* Brand & Mission (AHORA CON EL LOGO BLANCO OFICIAL) */}
+          {/* Brand & Mission (LOGO BLANCO OFICIAL) */}
           <div className="space-y-6 -mt-4 md:-mt-12">
             <Link href="/" className="inline-block">
               <img 
@@ -23,7 +30,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links Corregidos y Alineados al Navbar */}
+          {/* Quick Links */}
           <div className="space-y-6">
             <h4 className="text-easLightBlue font-bold text-xs uppercase tracking-widest font-montserrat">Navegación</h4>
             <ul className="space-y-4 text-slate-400 text-sm uppercase tracking-wider font-semibold font-montserrat">
@@ -46,7 +53,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                {/* Corregido a /#casos-de-exito para que haga el scroll en el Index igual que arriba */}
                 <Link href="/#casos-de-exito" className="hover:text-white transition-colors flex items-center gap-1 group">
                   <span>CASOS DE ÉXITO</span>
                   <ArrowUpRight className="w-3 opacity-0 group-hover:opacity-100 transition-opacity" />
